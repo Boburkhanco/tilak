@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400;1,400;1,500&family=Alfa+Slab+One&family=Architects+Daughter&family=Coda&family=Cookie&family=Licorice&family=Patrick+Hand&family=Secular+One&family=Shadows+Into+Light&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+.content {
+    max-width: 100%;
+    min-height: 85vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.wish {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px double white;
+    border-radius: 50%;
+    padding: 60px;
+    background: linear-gradient(130deg, rgb(177, 0, 68), blue);
+    display: none;
+}
+#wishIntro{
+    color: blue;
+    text-align: center;
+    font-family: 'Coda', cursive;
+    /* letter-spacing: -.6px; */
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    max-width: 560px;
+    margin: 0 auto;
+}
+#wishName{
+    color: rgb(84, 255, 61);
+    font-weight: 400;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 33px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.quest {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    background: linear-gradient(360deg, rgb(69, 245, 63), rgb(2, 99, 2));
+    border-radius: 5px;
+    position: absolute;
+
+}
+.input {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 55px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 27px;
+    font-family: 'Patrick Hand', cursive;
+}
+.submit {
+    margin: 10px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Coda', cursive;
+    outline: none;
+    border: 3px solid rgb(3, 0, 0);
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(130deg, rgb(177, 0, 68), blue);
+    border-radius: 5px;
+    letter-spacing: 4px;
+}
+.submit:active{
+    background: linear-gradient(rgb(210, 30, 165), rgb(25, 0, 255));
+}
+.dBlock{
+    display: block;
+}
+.dNone{
+    display: none;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alegreya', serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Coda', cursive;
+    font-family: 'Cookie', cursive;
+    font-family: 'Licorice', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
